@@ -1,0 +1,32 @@
+{
+  "name": "primera-web",
+  "version": "1.0.0",
+  "description": "Primera web con NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ger714/probandoNode.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "German Lescano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ger714/probandoNode/issues"
+  },
+  "homepage": "https://github.com/ger714/probandoNode#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
